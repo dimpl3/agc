@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+}
+
+.wrapper {
+  position: absolute;
+  font-family: "Quicksand";
+}
+
+.cellOverlay {
+  position: absolute;
+  stroke:black;
+}
+
+svg {
+  overflow: overlay;
+  width: 100%;
+  float: left;
+}
+
+.row {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  height: 20%;
+}
+
+.element {
+  border: solid black 0.1px;
+}
+
+#A1 {
+  background: #f7dc6f;
+  position: absolute;
+}
+#B {
+  background: #bb8fce;
+  position: absolute;
+}
+#C {
+  background: #5dade2;
+  position: absolute;
+}
+#D1 {
+  background: #ec7063;
+  position: absolute;
+}
+#A2 {
+  background: #f7dc6f;
+  position: absolute;
+}
+#A3 {
+  background: #f7dc6f;
+  position: absolute;
+}
+#D2 {
+  background: #ec7063;
+  position: absolute;
+}
+
+.centerText {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sendGame {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-family: "Quicksand";
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
