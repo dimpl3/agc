@@ -21,7 +21,7 @@ function resizeAdjust() {
   });
 
   $("#sendGame").css("top", $("#6")[0].getBoundingClientRect().top-$(".wrapper")[0].getBoundingClientRect().top);
-  $("#sendGame").css("left", $("#cell17")[0].getBoundingClientRect().left-$(".wrapper")[0].getBoundingClientRect().left);
+  $("#sendGame").css("left", $("#cell41")[0].getBoundingClientRect().left-$(".wrapper")[0].getBoundingClientRect().left);
 }
 
 function init() {
@@ -82,7 +82,7 @@ function init() {
   });
 
   $("#sendGame").css("top", $("#6")[0].getBoundingClientRect().top-$(".wrapper")[0].getBoundingClientRect().top);
-  $("#sendGame").css("left", $("#cell17")[0].getBoundingClientRect().left-$(".wrapper")[0].getBoundingClientRect().left);
+  $("#sendGame").css("left", $("#cell41")[0].getBoundingClientRect().left-$(".wrapper")[0].getBoundingClientRect().left);
 
   $(".element").each((index, elem) => {
     elem.style.height = $(`#${index + 1}`)[0].getBoundingClientRect().height + "px";
