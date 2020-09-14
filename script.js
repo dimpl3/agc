@@ -21,7 +21,7 @@ function resizeAdjust() {
   });
 
   $("#sendGame").css("top", $("#6")[0].getBoundingClientRect().top-$(".wrapper")[0].getBoundingClientRect().top);
-  $("#sendGame").css("left", $("#cell11")[0].getBoundingClientRect().left-$(".wrapper")[0].getBoundingClientRect().left);
+  $("#sendGame").css("left", $("#cell17")[0].getBoundingClientRect().left-$(".wrapper")[0].getBoundingClientRect().left);
 }
 
 function init() {
